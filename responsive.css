@@ -1,0 +1,26 @@
+@media only screen and (max-width: 480px){
+    .container{
+        width: 95%;
+    }
+    .sitenav li{
+        margin-left: 0;
+    }
+    .flex-div{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .banner-content h1{
+        font-size: 24px;
+        line-height: 40px;
+        font-weight: 600;
+    }
+    .half-div{
+        width: 100%;
+    }
+    .popular-collction{
+        grid-template-columns: repeat(1,1fr);
+    }
+    header .flex-div{
+        align-items: flex-start;
+    }
+}
